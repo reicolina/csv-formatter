@@ -3,6 +3,14 @@
 ## Description
 The CSV Formatter is a versatile tool designed to format CSV files from various sources into a standardized format. It supports operations such as renaming columns, moving columns, and duplicating columns based on a provided mapping.
 
+## Use Cases
+The CSV Formatter can be used for a variety of tasks, including:
+- Standardizing CSV files from different sources.
+- Preparing CSV files for import into a database.
+- Cleaning up CSV files for analysis.
+- Automating repetitive tasks on CSV files.
+- Telecom billing CDR (Call Detail Record) data processing.
+
 ## Requirements
 In order to run the CSV Formatter, you need to have the following installed:
 - Git
