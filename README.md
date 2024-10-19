@@ -19,7 +19,7 @@ In order to run the CSV Formatter, you need to have the following installed:
 ## Installation
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/csv-formatter.git
+    git clone https://github.com/reicolina/csv-formatter.git
     cd csv-formatter
     ```
 
