@@ -1,0 +1,148 @@
+{
+    "mappings": [
+        {
+            "name": "example_mapping",
+            "actions": [
+                {
+                    "type": "move",
+                    "originalColumnHeader": "ANI",
+                    "destinationColumnNumber": 0,
+                    "renameHeaderTo": "Origin Number"
+                },
+                {
+                    "type": "insert",
+                    "renameHeaderTo": "Billed Date",
+                    "destinationColumnNumber": 1,
+                    "value": ""
+                },
+                {
+                    "type": "duplicate",
+                    "originalColumnHeader": "Origin Number",
+                    "destinationColumnNumber": 2,
+                    "renameHeaderTo": "Number Billed"
+                },
+                {
+                    "type": "delete_after",
+                    "originalColumnNumber": 3
+                }
+            ]
+        },
+        {
+            "name": "unitedcloud_to_bellobm",
+            "actions": [
+                {
+                    "type": "move",
+                    "originalColumnHeader": "Local Time",
+                    "destinationColumnNumber": 0,
+                    "renameHeaderTo": "Call Date"
+                },
+                {
+                    "type": "insert",
+                    "renameHeaderTo": "Billed Date",
+                    "destinationColumnNumber": 1,
+                    "value": ""
+                },
+                {
+                    "type": "move",
+                    "originalColumnHeader": "id",
+                    "destinationColumnNumber": 2,
+                    "renameHeaderTo": "Account Number"
+                },
+                {
+                    "type": "move",
+                    "originalColumnHeader": "ANI",
+                    "destinationColumnNumber": 3,
+                    "renameHeaderTo": "Origin Number"
+                },
+                {
+                    "type": "insert",
+                    "renameHeaderTo": "Origin City",
+                    "destinationColumnNumber": 4,
+                    "value": ""
+                },
+                {
+                    "type": "insert",
+                    "renameHeaderTo": "Origin Province",
+                    "destinationColumnNumber": 5,
+                    "value": ""
+                },
+                {
+                    "type": "move",
+                    "originalColumnHeader": "Inpulsed Digits",
+                    "destinationColumnNumber": 6,
+                    "renameHeaderTo": "Destination Number"
+                },
+                {
+                    "type": "insert",
+                    "renameHeaderTo": "Destination City",
+                    "destinationColumnNumber": 7,
+                    "value": ""
+                },
+                {
+                    "type": "move",
+                    "originalColumnHeader": "IB Region Name",
+                    "destinationColumnNumber": 8,
+                    "renameHeaderTo": "Destination Province"
+                },
+                {
+                    "type": "insert",
+                    "renameHeaderTo": "Message Code",
+                    "destinationColumnNumber": 9,
+                    "value": ""
+                },
+                {
+                    "type": "insert",
+                    "renameHeaderTo": "Message Type",
+                    "destinationColumnNumber": 10,
+                    "value": ""
+                },
+                {
+                    "type": "insert",
+                    "renameHeaderTo": "Misc. Codes",
+                    "destinationColumnNumber": 11,
+                    "value": ""
+                },
+                {
+                    "type": "duplicate",
+                    "originalColumnHeader": "Origin Number",
+                    "destinationColumnNumber": 12,
+                    "renameHeaderTo": "Number Billed"
+                },
+                {
+                    "type": "duplicate",
+                    "originalColumnHeader": "Call Date",
+                    "destinationColumnNumber": 13,
+                    "renameHeaderTo": "Call Time"
+                },
+                {
+                    "type": "move",
+                    "originalColumnHeader": "IB Billed Seconds",
+                    "destinationColumnNumber": 14,
+                    "renameHeaderTo": "Length – minutes"
+                },
+                {
+                    "type": "insert",
+                    "renameHeaderTo": "Pricing Plan",
+                    "destinationColumnNumber": 15,
+                    "value": ""
+                },
+                {
+                    "type": "move",
+                    "originalColumnHeader": "Inbound Revenue",
+                    "destinationColumnNumber": 16,
+                    "renameHeaderTo": "Cost"
+                },
+                {
+                    "type": "insert",
+                    "renameHeaderTo": "Account Code",
+                    "destinationColumnNumber": 17,
+                    "value": ""
+                },
+                {
+                    "type": "delete_after",
+                    "originalColumnNumber": 18
+                }
+            ]
+        }
+    ]
+}
